@@ -1,0 +1,1 @@
+console.log("Parishk")     // this is used to send the string "Parishk" to the console 
