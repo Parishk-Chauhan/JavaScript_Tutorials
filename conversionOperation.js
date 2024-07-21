@@ -61,3 +61,42 @@ let someString =String(someNumber)
 console.log(someString)
 console.log(typeof someString)
 
+// *********************************** OPERATIONS ***********************************
+
+// Mathematical operations : 
+
+console.log(3+3)          // as expected will give 6 as output to console 
+console.log(3*3)          // 9
+console.log(3-3)          // 0
+console.log(3/3)          // 1
+console.log(3%3)          // 0 (remainder)
+console.log(2**3)         // 2 is raised to the power 3 ==> 8
+
+const value = 10
+const negativeValue = -value 
+console.log(negativeValue)     // ==> -10 
+
+// Concatenating two strings : 
+
+let str1 = "hello "
+let str2 = "Parishk"
+
+let str3 = str1 + str2
+console.log(str3)                 // ==> "hello Parishk"
+
+
+//js memes : 
+
+console.log("1" + 2)                   // ==> "12" will be the output 
+console.log(1 + "2")                   // ==>  "12"                    
+console.log("1" + 2 + 2)               // ==> "122" of string type js will automatically last two numbers to strings 
+console.log(1 + 2 + "2")               // ==>  "32"  first 1 and 2 will be added as numbers than they will be converted to string to be added to "2"
+
+
+
+console.log(+true)                  // ==> 1
+console.log(+"")                    // ==> 0 plus is used to do conversion into numbers
+
+let gameCounter=100
+console.log(gameCounter++)          // here output will be 100 but after that value will be 101
+console.log(++gameCounter)          // here output will be 102 because adding 1 to 101 and then it goes to console 
